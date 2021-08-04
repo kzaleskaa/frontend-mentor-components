@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+:root {
+    /* PRIMARY */
+    --bright-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
+    /* NEUTRAL */
+    --transparent-white: hsla(0, 0%, 100%, 0.75);
+    --very-light-gray: hsl(0, 0%, 95%);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 10px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.card h1 {
+    margin-bottom: 20px;
+    color: var(--very-light-gray);
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.card {
+    padding: 25px;
+}
+
+.first {
+    background-color: var(--bright-orange);
+}
+
+.first .btn {
+    color: var(--bright-orange);
+}
+
+.second {
+    background-color: var(--dark-cyan);
+}
+
+.second .btn {
+    color: var(--dark-cyan);
+}
+
+.third {
+    background-color: var(--very-dark-cyan);
+}
+
+.third .btn {
+    color: var(--very-dark-cyan);
+}
+
+.card img {
+    margin-bottom: 30px;
+}
+
+.card .btn {
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 1.2rem;
+    background-color: var(--very-light-gray);
+    border: 2px solid var(--very-light-gray);
+    border-radius: 25px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.card .btn:hover {
+    background-color: transparent;
+    color: var(--very-light-gray);
+}
+
+.card p {
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+    color: var(--transparent-white);
+    line-height: 1.5;
+}
+
+.container div:first-child {
+    border-radius: 10px 10px 0 0;
+}
+
+.container div:last-child {
+    border-radius: 0 0 10px 10px;
+}
+
+@media (min-width: 1024px) {
+    .container {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        max-width: 1024px;
+    }
+
+    .container div:first-child {
+        border-radius: 10px 0 0 10px;
+    }
+
+    .container div:last-child {
+        border-radius: 0 10px 10px 0;
+    }
+
+    .container {
+        padding: 0px;
+    }
+
+    .card {
+        padding: 35px;
+    }
+
+    .card .btn {
+        margin-top: 60px;
+    }
+
+    .card p {
+        font-size: 1.2rem;
+    }
+}
