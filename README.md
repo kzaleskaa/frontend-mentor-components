@@ -14,6 +14,7 @@ Users should be able to:
 | Tags  | Challanges | Live|  Code|
 | --- | -- |  -- | --  | 
 | HTML, CSS      | 3-column preview card component  | [Live](https://3-column-preview-card-kzaleskaa.netlify.app/) | [Code](https://github.com/kzaleskaa/frontend-mentor-solutions/tree/main/3-column-preview-card) |
+| HTML, CSS      | Order summary component | [Live](https://order-summary-component.netlify.app/) | [Code](https://github.com/kzaleskaa/frontend-mentor-solutions/tree/main/order-summary-component) |
 
 
 ## Junior challenges
