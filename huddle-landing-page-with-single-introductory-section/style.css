@@ -162,7 +162,7 @@ footer p {
     }
 }
 
-@media (min-width: 1441px) {
+@media (min-width: 1440px) {
     main .text {
         width: 35%;
     }
