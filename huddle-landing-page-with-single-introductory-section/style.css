@@ -21,7 +21,9 @@ body {
     position: relative;
     font-family: "Open Sans", sans-serif;
 }
-
+button, i {
+    cursor: pointer;
+}
 header img {
     height: 35px;
 }
