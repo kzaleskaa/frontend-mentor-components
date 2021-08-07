@@ -15,7 +15,7 @@ Users should be able to:
 | --- | -- |  -- | --  | 
 | HTML, CSS      | 3-column preview card component  | [Live](https://3-column-preview-card-kzaleskaa.netlify.app/) | [Code](https://github.com/kzaleskaa/frontend-mentor-solutions/tree/main/3-column-preview-card) |
 | HTML, CSS      | Order summary component | [Live](https://order-summary-component.netlify.app/) | [Code](https://github.com/kzaleskaa/frontend-mentor-solutions/tree/main/order-summary-component) |
-
+| HTML, CSS      | Huddle landing page with single introductory section | [Live](https://huddle-landing-page-single-section.netlify.app/) | [Code](https://github.com/kzaleskaa/frontend-mentor-solutions/tree/main/huddle-landing-page-with-single-introductory-section) |
 
 ## Junior challenges
 | Tags  | Challanges | Live|  Code|
