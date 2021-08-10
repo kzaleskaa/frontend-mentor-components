@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cyan: hsl(179, 62%, 43%);
+    --bright-yellow: hsl(71, 73%, 54%);
+    --light-gray: hsl(204, 43%, 93%);
+    --grayish-blue: hsl(218, 22%, 67%);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    min-height: 100vh;
+    margin: 0 auto;
+    background-color: var(--light-gray);
+}
+
+main {
+    margin: 70px 30px;
+    border-radius: 10px;
+    font-family: 'Karla', sans-serif;
+    box-shadow: 0px 0px 8px -2px #000000;
+    overflow: hidden;
+}
+
+div {
+    padding: 28px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.community {
+    background-color: white;
+}
+
+.community h1 {
+    margin-bottom: 25px;
+    color: var(--cyan);
+}
+
+.community h2 {
+    margin-bottom: 20px;
+    color: var(--bright-yellow);
+}
+
+.community p {
+    line-height: 2;
+    opacity: 0.4;
+}
+
+.subscription {
+    background-color: var(--cyan);
+    color: var(--light-gray);
+}
+
+.subscription h2 {
+    margin-bottom: 23px;
+}
+
+.subscription span {
+    margin-right: 13px;
+    font-size: 30px;
+}
+
+.subscription .price {
+    margin-bottom: 8px;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.subscription .price span:last-of-type {
+    opacity: 0.5;
+    font-size: 18px;
+}
+
+.subscription p {
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    padding: 14px;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    background-color: var(--bright-yellow);
+    color: var(--light-gray);
+    font-weight: bold;
+    box-shadow: 2px 9px 22px -9px rgba(0, 0, 0, 0.93);
+    transition: .5s;
+}
+
+button:hover {
+    background-color: var(--grayish-blue);
+    cursor: pointer;
+}
+
+.about {
+    /* padding-top: 40px; */
+    background-color: var(--cyan);
+    color: var(--light-gray);
+    opacity: 0.8;
+}
+
+.about ul {
+    margin-top: 10px;
+    list-style: none;
+}
+
+.about ul li a {
+    text-decoration: none;
+    line-height: 1.4;
+    color: var(--light-gray);
+    opacity: 0.8;
+    transition: .5s;
+}
+
+.about ul li a:hover {
+    color: var(--bright-yellow);
+}
+
+.design {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+@media (min-width: 1024px) {
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: "community community""subscription about";
+        max-width: 750px;
+        max-height: 600px;
+    }
+
+    div {
+        padding: 50px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    button {
+        font-size: 18px;
+    }
+
+    .community {
+        grid-area: community;
+    }
+
+    .subscription {
+        grid-area: subscription;
+    }
+
+    .about {
+        grid-area: about;
+    }
+
+    footer {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        margin: 0 auto;
+        width: 100vw;
+        line-height: 2;
+    }
+}
