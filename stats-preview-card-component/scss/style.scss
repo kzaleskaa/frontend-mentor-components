@@ -54,7 +54,7 @@ body {
                 width: 100%;
                 height: 100%;
                 background-color: $soft-violet;
-                opacity: 0.6;
+                opacity: 0.65;
             }
         }
 
@@ -140,7 +140,9 @@ body {
             order: 1;
 
             h1 {
+                font-size: 2.4rem;
                 margin-bottom: 30px;
+                line-height: 1.2;
             }
 
             p {

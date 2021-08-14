@@ -67,7 +67,7 @@ body {
   width: 100%;
   height: 100%;
   background-color: #aa5cdb;
-  opacity: 0.6;
+  opacity: 0.65;
 }
 
 .wrapper__container .text {
@@ -163,7 +163,9 @@ body {
             order: 1;
   }
   .wrapper__container .text h1 {
+    font-size: 2.4rem;
     margin-bottom: 30px;
+    line-height: 1.2;
   }
   .wrapper__container .text p {
     margin-bottom: 25px;
