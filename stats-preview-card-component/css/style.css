@@ -55,6 +55,7 @@ body {
   background-position: center;
   position: relative;
   height: 30vh;
+  min-height: 200px;
   max-height: 480px;
 }
 
