@@ -57,17 +57,8 @@ body {
   height: 30vh;
   min-height: 200px;
   max-height: 480px;
-}
-
-.wrapper__container .image::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
   background-color: #aa5cdb;
-  opacity: 0.65;
+  background-blend-mode: multiply;
 }
 
 .wrapper__container .text {
@@ -114,7 +105,7 @@ body {
   color: #aa5cdb;
 }
 
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   .wrapper__container .information {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -130,11 +121,11 @@ body {
     margin: 0 auto;
   }
   .wrapper__container .image {
-    height: 25vh;
+    height: 35vh;
   }
 }
 
-@media (min-width: 1024px) {
+@media only screen and (min-width: 1024px) {
   .wrapper__container {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
