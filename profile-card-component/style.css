@@ -59,6 +59,7 @@ body {
 
 .bottom-container h1 {
     font-size: 1.3rem;
+    color: var(--very-dark-desaturated-blue);
 }
 
 .bottom-container h1 span {
@@ -89,6 +90,7 @@ body {
 
 .profile-information .info h3 {
     font-size: 1.3rem;
+    color: var(--very-dark-desaturated-blue);
 }
 
 .profile-information .info h4 {
