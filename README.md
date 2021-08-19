@@ -16,6 +16,7 @@ Users should be able to:
 | HTML, CSS      | 3-column preview card component  | [Live](https://3-column-preview-card-kzaleskaa.netlify.app/) | [Code](https://github.com/kzaleskaa/frontend-mentor-solutions/tree/main/3-column-preview-card) |
 | HTML, CSS      | Order summary component | [Live](https://order-summary-component.netlify.app/) | [Code](https://github.com/kzaleskaa/frontend-mentor-solutions/tree/main/order-summary-component) |
 | HTML, CSS      | Single price grid component | [Live](https://frontend-mentor-solutions-kohl.vercel.app/) | [Code](https://github.com/kzaleskaa/frontend-mentor-solutions/tree/main/single-price-grid-component) |
+| HTML, CSS      | Profile card component | [Live](https://profile-card-component-kzaleskaa.netlify.app/) | [Code](https://github.com/kzaleskaa/frontend-mentor-solutions/tree/main/profile-card-component) |
 | HTML, CSS      | Huddle landing page with single introductory section | [Live](https://huddle-landing-page-single-section.netlify.app/) | [Code](https://github.com/kzaleskaa/frontend-mentor-solutions/tree/main/huddle-landing-page-with-single-introductory-section) |
 | HTML, SCSS      | Stats preview card component | [Live](https://stats-preview-card-kzaleskaa.netlify.app/) | [Code](https://github.com/kzaleskaa/frontend-mentor-solutions/tree/main/stats-preview-card-component) |
 
