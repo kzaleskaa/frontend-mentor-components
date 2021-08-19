@@ -24,7 +24,7 @@ body {
     min-width: 100vw;
     background-image: url("/images/bg-pattern-bottom.svg"), url("/images/bg-pattern-top.svg");
     background-repeat: no-repeat;
-    background-position: left 20vw top 50vh, right 50vw bottom 40vh;
+    background-position: left 50vw top 50vh, right 50vw bottom 40vh;
     background-color: var(--dark-cyan);
     font-size: 18px;
     font-family: "Kumbh Sans", sans-serif;
@@ -32,8 +32,8 @@ body {
 }
 
 .container {
-    width: 280px;
-    margin: 0px 30px 10px 30px;
+    width: 310px;
+    margin-bottom: 10px;
     border-radius: 20px;
     background-color: white;
     overflow: hidden;
@@ -76,7 +76,7 @@ body {
 
 .profile-information {
     margin-top: 25px;
-    border-top: 1px solid rgba(100,100,100,0.5);
+    border-top: 1px solid rgba(100, 100, 100, 0.5);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -104,20 +104,4 @@ body {
 
 .attribution a {
     color: hsl(228, 45%, 44%);
-}
-
-@media screen and (min-width: 360px) {
-    .container {
-        width: 350px;
-    }
-}
-
-@media screen and (min-width: 768px) {
-    body {
-        background-position: left 50vw top 50vh, right 50vw bottom 40vh;
-    }
-
-    .container {
-        width: 350px;
-    }
 }
