@@ -20,7 +20,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 40px 30px;
+    padding: 40px 30px;
+    background-color: var(--very-light-gray);
     color: var(--very-dark-blue);
     font-family: "Poppins", sans-serif;
 }
@@ -50,10 +51,10 @@ header p {
 }
 
 .card {
-    margin: 0 auto 20px auto;
-    padding: 20px;
     border-radius: 5px;
     box-shadow: 0px 9px 28px -3px rgba(0, 0, 0, 0.54);
+    margin: 0 auto 20px auto;
+    padding: 20px;
 }
 
 .card h3 {
