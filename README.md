@@ -1,6 +1,20 @@
-# Frontend Mentor Challenges
+<h1 align="center">Frontend Mentor Challenges</h1>
 
-This repository contains all of my solutions I submitted at [frontendmentor.io ](https://www.frontendmentor.io/)
+<div align="center">
+  This repository contains all of my solutions I submitted at <a href="https://www.frontendmentor.io/" target="_blank">frontendmentor.io</a>.
+</div>
+
+<div align="center">
+  <h3>
+    <a href="https://www.frontendmentor.io/challenges">
+      Challenges
+    </a>
+    <span> | </span>
+    <a href="https://www.frontendmentor.io/profile/kzaleskaa">
+      Portfolio
+    </a>
+  </h3>
+</div>
 
 ## The challenge
 
