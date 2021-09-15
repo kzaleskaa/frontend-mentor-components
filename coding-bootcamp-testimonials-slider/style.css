@@ -81,6 +81,7 @@ img.slider {
     flex-direction: column;
     text-align: center;
     padding: 0 20px;
+    z-index: 2;
 }
 
 .quote {
