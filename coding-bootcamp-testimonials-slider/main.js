@@ -38,23 +38,23 @@ const animation=()=> {
         { transform: 'translateY(-100%)' },
         { transform: 'translateY(0%)' }
       ], {
-        duration: 900
+        duration: 1000
       });
       textDiv.animate([
         { opacity: '0' },
         { opacity: '1' }
       ], {
-        duration: 900
+        duration: 1000
       });
 }
 
 //animate and change elements
 const changeSlide=()=> {
-    animation();
     image.src=slideList[active].img;
     pText.textContent=slideList[active].text;
     h1.textContent=slideList[active].name;
     h2.textContent=slideList[active].position;
+    animation();
 }
 
 //change slide on 'keydown' event
