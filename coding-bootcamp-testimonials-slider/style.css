@@ -94,16 +94,6 @@ img.slider {
     height: 50px;
 }
 
-.attribution {
-    text-align: center;
-    font-size: 11px;
-    color: var(--grayish-blue);
-}
-
-.attribution a {
-    color: hsl(228, 45%, 44%);
-}
-
 @media (min-width: 768px) {
     img.slider {
         width: 40%;

@@ -38,13 +38,13 @@ const animation=()=> {
         { transform: 'translateY(-100%)' },
         { transform: 'translateY(0%)' }
       ], {
-        duration: 1000
+        duration: 900
       });
       textDiv.animate([
         { opacity: '0' },
         { opacity: '1' }
       ], {
-        duration: 1000
+        duration: 900
       });
 }
 
