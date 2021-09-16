@@ -39,3 +39,4 @@ Users should be able to:
 | Tags  | Challanges | Live|  Code|
 | --- | -- |  -- | --  | 
 | HTML, CSS      | Testimonials grid section | [Live](https://testimonials-grid-section-kzaleskaa.netlify.app/) | [Code](https://github.com/kzaleskaa/frontend-mentor-solutions/tree/main/testimonials-grid-section) |
+| HTML, CSS, JS      | Coding bootcamp testimonials slider | [Live](https://slider-kzaleskaa.netlify.app/) | [Code](https://github.com/kzaleskaa/frontend-mentor-solutions/tree/main/coding-bootcamp-testimonials-slider) |
