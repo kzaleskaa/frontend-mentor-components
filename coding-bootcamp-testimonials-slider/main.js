@@ -51,7 +51,7 @@ const animation=()=> {
 //animate and change elements
 const changeSlide=()=> {
     image.src=slideList[active].img;
-    pText.textContent=slideList[active].text;
+    pText.textContent=slideList[active].text.slice(0,-1);
     h1.textContent=slideList[active].name;
     h2.textContent=slideList[active].position;
     animation();

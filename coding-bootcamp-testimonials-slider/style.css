@@ -71,8 +71,8 @@ img.slider {
     height: 35px;
     padding: 10px;
     transition: .4s;
+    cursor: pointer;
 }
-
 .arrow:hover {
     transform: scale(1.2);
 }
