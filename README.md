@@ -34,9 +34,11 @@ Users should be able to:
 | HTML, CSS      | Four card feature section | [Live](https://four-card-feature-section-kzaleskaa.netlify.app/) | [Code](https://github.com/kzaleskaa/frontend-mentor-solutions/tree/main/four-card-feature-section) |
 | HTML, CSS      | Huddle landing page with single introductory section | [Live](https://huddle-landing-page-single-section.netlify.app/) | [Code](https://github.com/kzaleskaa/frontend-mentor-solutions/tree/main/huddle-landing-page-with-single-introductory-section) |
 | HTML, SCSS      | Stats preview card component | [Live](https://stats-preview-card-kzaleskaa.netlify.app/) | [Code](https://github.com/kzaleskaa/frontend-mentor-solutions/tree/main/stats-preview-card-component) |
+| HTML, CSS, JS      | Base apparel coming soon | [Live](https://base-apparel-coming-soon-kzaleskaa.netlify.app/) | [Code](https://github.com/kzaleskaa/frontend-mentor-solutions/tree/main/base-apparel-coming-soon) |
 
 ## Junior challenges
 | Tags  | Challanges | Live|  Code|
 | --- | -- |  -- | --  | 
 | HTML, CSS      | Testimonials grid section | [Live](https://testimonials-grid-section-kzaleskaa.netlify.app/) | [Code](https://github.com/kzaleskaa/frontend-mentor-solutions/tree/main/testimonials-grid-section) |
 | HTML, CSS, JS      | Coding bootcamp testimonials slider | [Live](https://slider-kzaleskaa.netlify.app/) | [Code](https://github.com/kzaleskaa/frontend-mentor-solutions/tree/main/coding-bootcamp-testimonials-slider) |
+
