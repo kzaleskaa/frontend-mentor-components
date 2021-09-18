@@ -217,6 +217,10 @@ body {
 @media (min-width: 1024px) {
     .hero-container {
         width: 500px;
+
+    }
+    .content-container {
+        max-width: 500px;
     }
 
     .content-container h1 {
@@ -224,7 +228,7 @@ body {
     }
 
     .content-container p {
-        font-size: 24px;
+        font-size: 20px;
     }
 
     .content-container form input,
@@ -239,11 +243,11 @@ body {
 
 @media (min-width: 1440px) {
     .logo-container img {
-        height: 33px;
+        height: 35px;
     }
 
     .hero-container {
-        width: 610px;
+        width: 500px;
     }
 
     .content-container h1 {
@@ -255,7 +259,7 @@ body {
     }
 
     .content-container {
-        max-width: 445px;
+        max-width: 700px;
     }
 
     .content-container form input {
