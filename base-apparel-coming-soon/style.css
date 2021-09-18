@@ -259,5 +259,6 @@ body {
 
     .content-container form .error {
         right: 125px;
+        height: 30px;
     }
 }
