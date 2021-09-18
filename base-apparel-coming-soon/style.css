@@ -249,13 +249,17 @@ body {
     .hero-container {
         width: 610px;
     }
+    .content-container {
+        padding-left: 130px;
+    }
 
     .content-container h1 {
-        font-size: 56px;
+        font-size: 64px;
     }
 
     .content-container p {
-        font-size: 22px;
+        font-size: 20px;
+        margin-bottom: 30px;
     }
 
     .content-container {
@@ -264,12 +268,11 @@ body {
 
     .content-container form input {
         height: 60px;
-        padding-left: 30px;
     }
 
     .content-container form button {
-        width: 120px;
         height: 60px;
+        width: 120px;
     }
 
     .content-container form .error {
