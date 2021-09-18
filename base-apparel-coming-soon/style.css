@@ -291,6 +291,7 @@ body {
     }
 
     .content-container form button {
+        height: 80px;
         width: 120px;
     }
 
