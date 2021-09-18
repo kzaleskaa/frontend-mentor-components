@@ -20,6 +20,7 @@
 body {
     font-size: 10px;
     font-family: 'Lexend Deca', sans-serif;
+    background-color: var(--very-light-gray);
 }
 
 .card h1 {

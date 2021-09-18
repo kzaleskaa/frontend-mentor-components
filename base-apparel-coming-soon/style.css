@@ -133,6 +133,7 @@ body {
     top: 15px;
     right: 83px;
 }
+
 .container p.error {
     padding-left: 20px;
     text-align: left;
@@ -238,10 +239,11 @@ body {
 
 @media (min-width: 1440px) {
     .logo-container img {
-        height: 35px;
+        height: 33px;
     }
+
     .hero-container {
-        width: 600px;
+        width: 610px;
     }
 
     .content-container h1 {
@@ -253,7 +255,7 @@ body {
     }
 
     .content-container {
-        max-width: 700px;
+        max-width: 445px;
     }
 
     .content-container form input {
@@ -272,6 +274,7 @@ body {
         height: 30px;
     }
 }
+
 @media (min-width: 1640px) {
     .hero-container {
         width: 700px;
@@ -298,5 +301,6 @@ body {
     .content-container form .error {
         right: 125px;
         height: 30px;
+        top: 25px;
     }
 }
