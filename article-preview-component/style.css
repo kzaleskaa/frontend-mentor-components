@@ -48,6 +48,7 @@ img {
   width: 80%;
   border-radius: 10px;
   background-color: white;
+  box-shadow: 8px 8px 11px -7px rgba(0,0,0,0.75);
 }
 
 .article__image {
@@ -137,6 +138,10 @@ img {
 .article__btn-share {
   grid-area: share;
   align-self: center;
+}
+
+.article__btn-share::after {
+  content: url("images/icon-share.svg");
 }
 
 @media (min-width: 540px) {
