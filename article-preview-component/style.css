@@ -29,7 +29,11 @@ body {
 img {
   max-width: 100%;
 }
-
+ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 li {
   list-style: none;
 }
@@ -77,19 +81,18 @@ li {
 }
 
 .article__author {
-  height: 80px;
-  padding: 20px;
+  padding: 10px 20px 0px 20px;
 }
 
 .article__socials {
   display: flex;
   align-items: center;
-  height: 80px;
+  height: 66px;
   width: 100%;
   position: absolute;
   right: 0;
   bottom: 0;
-  padding: 20px;
+  padding: 0px 20px;
   border-radius: 0 0 10px 10px;
   background-color: var(--very-dark-grayish-blue);
   opacity: 1;
@@ -116,7 +119,7 @@ li {
   grid-template-columns: 50px 1fr 20px;
   grid-template-rows: 20px 20px;
   grid-template-areas: "avatar name share" "avatar date share";
-  height: 80px;
+  height: 65px;
   position: relative;
 }
 
@@ -130,7 +133,7 @@ li {
 
 .article__name {
   grid-area: name;
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 700;
   line-height: 20px;
 }
@@ -182,17 +185,26 @@ li {
     grid-area: text;
     margin: 20px 20px 0 20px;
   }
-
   .article__title {
     margin-bottom: 20px;
+    font-size: 18px;
+  }
+  .article__text {
+    font-size: 14px;
   }
 
   .article__author {
     grid-area: author;
     height: auto;
-    margin: 20px;
+    margin: 0px 20px 14px 20px;
+  }
+  .article__name {
+    font-size: 14px;
   }
 
+  .article__date {
+    font-size: 12px;
+  }
   .article__btn-share {
     transition: 0.4s;
   }
@@ -202,10 +214,10 @@ li {
     text-align: center;
     justify-content: space-around;
     align-items: center;
-    width: 200px;
-    height: 60px;
-    right: -72px;
-    bottom: 80px;
+    width: 190px;
+    height: 50px;
+    right: -67px;
+    bottom: 55px;
     border-radius: 10px;
     transition: 0.4s;
   }
@@ -239,22 +251,17 @@ li {
 
   .article__author {
     grid-template-columns: 70px 1fr 20px;
-    grid-template-rows: 28px 28px;
+    grid-template-rows: 24px 24px;
     grid-template-areas: "avatar name share" "avatar date share";
   }
 
   .article__author-image {
-    width: 56px;
-    height: 56px;
+    width: 46px;
+    height: 46px;
   }
 
   .article__name {
-    font-size: 16px;
     transform: translateY(5px);
-  }
-
-  .article__date {
-    font-size: 14px;
   }
 
   .article__btn-share {
@@ -263,7 +270,7 @@ li {
   }
 
   .article__socials {
-    bottom: 90px;
-    right: -80px;
+    bottom: 66px;
+    right: -75px;
   }
 }
