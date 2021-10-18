@@ -30,6 +30,9 @@ img {
   max-width: 100%;
 }
 
+li {
+  list-style: none;
+}
 .btn {
   height: 25px;
   width: 25px;
@@ -48,7 +51,7 @@ img {
   width: 80%;
   border-radius: 10px;
   background-color: white;
-  box-shadow: 8px 8px 11px -7px rgba(0,0,0,0.75);
+  box-shadow: 8px 8px 11px -13px rgba(0, 0, 0, 0.75);
 }
 
 .article__image {
@@ -64,7 +67,10 @@ img {
 .article__content {
   padding: 20px 20px 0 20px;
 }
-
+.article__title {
+  font-size: 18px;
+  font-weight: 700;
+}
 .article__title,
 .article__text {
   margin-bottom: 15px;
@@ -87,10 +93,12 @@ img {
   border-radius: 0 0 10px 10px;
   background-color: var(--very-dark-grayish-blue);
   opacity: 1;
+  visibility: visible;
 }
 
 .article__socials.hidden {
   opacity: 0;
+  visibility: hidden;
 }
 
 .article__share-text {
@@ -116,9 +124,6 @@ img {
   grid-area: avatar;
   height: 40px;
   width: 40px;
-  background-image: url("images/avatar-michelle.jpg");
-  background-size: cover;
-  background-position: center center;
   border-radius: 50%;
   overflow: hidden;
 }
@@ -126,12 +131,14 @@ img {
 .article__name {
   grid-area: name;
   font-size: 12px;
+  font-weight: 700;
   line-height: 20px;
 }
 
 .article__date {
   grid-area: date;
   font-size: 10px;
+  font-weight: 500;
   line-height: 20px;
 }
 
@@ -143,7 +150,9 @@ img {
 .article__btn-share::after {
   content: url("images/icon-share.svg");
 }
-
+.article__btn-share[aria-expanded="true"] {
+  background-color: var(--grayish-blue);
+}
 @media (min-width: 540px) {
   .article__container {
     width: 500px;
@@ -219,10 +228,6 @@ img {
 
   .article__social:hover .article__social-path {
     fill: rgba(197, 149, 96, 255);
-  }
-
-  .article__btn-share.open {
-    background-color: var(--grayish-blue);
   }
 }
 

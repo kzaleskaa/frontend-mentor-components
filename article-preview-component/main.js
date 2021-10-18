@@ -3,15 +3,21 @@ const socials = document.querySelector(".article__socials");
 const text = document.querySelector(".article__share-text");
 
 window.onclick = function (event) {
+  let ariaBtn = share.getAttribute("aria-expanded");
+
   if (event.target == share) {
-    share.classList.toggle("open");
+    if (ariaBtn == "false") {
+      share.setAttribute("aria-expanded", "true");
+    } else {
+      share.setAttribute("aria-expanded", "false");
+    }
     socials.classList.toggle("hidden");
   } else if (
-    event.target != share &&
     event.target != socials &&
-    share.classList.contains("open")
+    event.target != text &&
+    ariaBtn == "true"
   ) {
-    share.classList.remove("open");
+    share.setAttribute("aria-expanded", "false");
     socials.classList.add("hidden");
   }
 };
