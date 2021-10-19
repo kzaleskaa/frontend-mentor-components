@@ -11,23 +11,38 @@
 
 <body>
   <div class="container">
-    <div class="text-container">
-      <h1 class="slogan">Learn to code by watching others</h1>
-      <p class="description">See how experienced developers solve problems in real-time. Watching scripted tutorials is
+    <div class="container__text">
+      <h1 class="container__slogan">Learn to code by watching others</h1>
+      <p class="container__description">See how experienced developers solve problems in real-time. Watching scripted
+        tutorials is
         great, but understanding how developers think is invaluable. </p>
     </div>
-    <div class="forms-container">
+    <div class="forms">
       <button class="btn btn-trial"><strong>Try it free 7 days</strong> then $20/mo. thereafter</button>
-      <form class="form" novalidate>
-        <input type="text" class="input name" placeholder="First Name" required>
-        <input type="text" class="input surname" placeholder="Last Name" required>
-        <input type="text" class="input email" placeholder="Email Address" required>
-        <input type="text" class="input password" placeholder="Password" required>
-        <button class="btn btn-claim">Claim your free trial</button>
-        <p class="rules">By clicking the button, you are agreeing to our <a href="#" class="terms-link">Terms and Services</a></p>
+      <form class="forms__container" novalidate>
+        <div class="forms__item">
+          <input type="text" class="forms__input name" placeholder="First Name">
+          <p class="error-text"></p>
+        </div>
+        <div class="forms__item">
+          <input type="text" class="forms__input surname" placeholder="Last Name">
+          <p class="error-text"></p>
+        </div>
+        <div class="forms__item">
+          <input type="text" class="forms__input email" placeholder="Email Address">
+          <p class="error-text"></p>
+        </div>
+        <div class="forms__item">
+          <input type="password" class="forms__input password" placeholder="Password">
+          <p class="error-text"></p>
+        </div>
+        <button type="submit" class="btn btn-claim">Claim your free trial</button>
+        <p class="rules">By clicking the button, you are agreeing to our <a href="#" class="terms-link">Terms and
+            Services</a></p>
       </form>
     </div>
   </div>
+  <script src="main.js"></script>
 </body>
 
 </html>
