@@ -43,7 +43,7 @@ const errorSettings = (element, classAdd, classRemove, message) => {
 };
 
 const showError = (element, message) => {
-  errorSettings(element, "error", "success");
+  errorSettings(element, "error", "success", message);
 };
 
 const showSuccess = (element) => {
