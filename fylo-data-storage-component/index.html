@@ -6,19 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
-
   <title>Fylo data storage component</title>
-  <!-- 
-  <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
-
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style> -->
 </head>
 
 <body>
@@ -52,19 +40,20 @@
       </div>
       <div class="container__storage">
         <div class="container__description">
-          You’ve used <span>815 GB</span> of your storage
+          You’ve used <span class="counter">0 GB</span> of your storage
         </div>
         <div class="container__progress-bar">
-          <progress id="storage" class="progress" max="1000" value="815">81.5%</progress>
+          <div class="progress"></div>
         </div>
         <div class="progress__values">
           <div class="progres__min"><span>0 GB</span></div>
           <div class="progress__max"><span>1000 GB</span></div>
         </div>
-        <div class="container__message"><span>185</span> GB Left</div>
+        <div class="container__message"><span class="left">0</span> GB Left</div>
       </div>
     </div>
   </main>
+  <script src="main.js"></script>
 </body>
 
 </html>
