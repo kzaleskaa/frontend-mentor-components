@@ -163,7 +163,7 @@ span {
   body {
     background-image: url("images/bg-desktop.png");
     background-position: bottom;
-    background-size: 100%;
+    background-size: contain;
     background-color: var(--very-dark-blue);
   }
   .buttons__itemn:hover {
