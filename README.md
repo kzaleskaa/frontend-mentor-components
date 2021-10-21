@@ -35,10 +35,14 @@ Users should be able to:
 | HTML, CSS      | Huddle landing page with single introductory section | [Live](https://huddle-landing-page-single-section.netlify.app/) | [Code](https://github.com/kzaleskaa/frontend-mentor-solutions/tree/main/huddle-landing-page-with-single-introductory-section) |
 | HTML, SCSS      | Stats preview card component | [Live](https://stats-preview-card-kzaleskaa.netlify.app/) | [Code](https://github.com/kzaleskaa/frontend-mentor-solutions/tree/main/stats-preview-card-component) |
 | HTML, CSS, JS      | Base apparel coming soon | [Live](https://base-apparel-coming-soon-kzaleskaa.netlify.app/) | [Code](https://github.com/kzaleskaa/frontend-mentor-solutions/tree/main/base-apparel-coming-soon) |
+| HTML, CSS, JS      | Base apparel coming soon | [Live](https://base-apparel-coming-soon-kzaleskaa.netlify.app/) | [Code](https://github.com/kzaleskaa/frontend-mentor-solutions/tree/main/base-apparel-coming-soon) |
+| HTML, CSS, JS      | Article preview component | [Live](https://article-preview-kzaleskaa.netlify.app/) | [Code](https://github.com/kzaleskaa/frontend-mentor-components/tree/main/article-preview-component) |
+| HTML, CSS, JS      | Intro component with sign-up form| [Live](https://signup-form-kzaleskaa.netlify.app/) | [Code](https://github.com/kzaleskaa/frontend-mentor-components/tree/main/intro-component-with-signup-form) |
 
 ## Junior challenges
 | Tags  | Challanges | Live|  Code|
 | --- | -- |  -- | --  | 
 | HTML, CSS      | Testimonials grid section | [Live](https://testimonials-grid-section-kzaleskaa.netlify.app/) | [Code](https://github.com/kzaleskaa/frontend-mentor-solutions/tree/main/testimonials-grid-section) |
 | HTML, CSS, JS      | Coding bootcamp testimonials slider | [Live](https://slider-kzaleskaa.netlify.app/) | [Code](https://github.com/kzaleskaa/frontend-mentor-solutions/tree/main/coding-bootcamp-testimonials-slider) |
+| HTML, CSS, JS      | Fylo data storage component | [Live](https://fylo-data-kzaleskaa.netlify.app/) | [Code](https://github.com/kzaleskaa/frontend-mentor-components/tree/main/fylo-data-storage-component) |
 
