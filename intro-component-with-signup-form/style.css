@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+:root {
+  --red: hsl(0, 100%, 74%);
+  --green: hsl(154, 59%, 51%);
+  --blue: hsl(248, 32%, 49%);
+  --dark-blue: hsl(249, 10%, 26%);
+  --grayish-blue: hsl(246, 25%, 77%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+}
+
+button,
+a {
+  cursor: pointer;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("images/bg-intro-mobile.png");
+  background-color: var(--red);
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 40px 0px;
+  width: 90%;
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.container__text {
+  margin-bottom: 40px;
+}
+.container__slogan {
+  margin-bottom: 20px;
+  color: white;
+  font-size: 24px;
+  line-height: 1.4;
+}
+.container__description {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.3;
+}
+.btn {
+  padding: 12px 0px;
+  margin-bottom: 14px;
+  color: white;
+  border: none;
+  border-radius: 6px;
+}
+.btn-trial {
+  padding: 12px 30px;
+  width: 100%;
+  background-color: var(--blue);
+  box-shadow: 0px 12px 9px -8px rgba(66, 68, 90, 0.56);
+}
+.btn-claim {
+  width: 95%;
+  background-color: var(--green);
+  text-transform: uppercase;
+  box-shadow: inset 0px -12px 2px -8px rgba(67, 135, 100, 0.72);
+}
+.forms {
+  box-shadow: 0px 12px 9px -8px rgba(66, 68, 90, 0.56);
+}
+.forms__container {
+  padding: 20px 15px;
+  margin: 0 auto;
+  border-radius: 6px;
+  background-color: white;
+}
+
+.forms__input {
+  width: 95%;
+  height: 40px;
+  padding-left: 10px;
+  border: 1px solid var(--grayish-blue);
+  border-radius: 6px;
+}
+.forms__input:focus {
+  border: 2px solid var(--blue);
+  border-radius: 6px;
+}
+.forms__item:not(:last-child) {
+  margin-bottom: 10px;
+}
+.rules {
+  margin: 0 auto;
+  width: 90%;
+  font-size: 10px;
+  color: var(--grayish-blue);
+}
+
+.terms-link {
+  font-weight: 700;
+  color: var(--red);
+}
+
+.error,
+.error:focus {
+  border: 2px solid var(--red);
+  background: url("images/icon-error.svg") no-repeat;
+  background-position: 95% 50%;
+}
+.error::placeholder {
+  color: var(--red);
+}
+.error-text {
+  font-size: 12px;
+  font-style: italic;
+  color: var(--red);
+  text-align: right;
+  margin-right: 20px;
+}
+.success,
+.success:focus {
+  border: 2px solid var(--green);
+}
+@media (min-width: 1024px) {
+  body {
+    background-image: url("images/bg-intro-desktop.png");
+  }
+  .container {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+    width: 80%;
+    max-width: 1000px;
+  }
+  .container__text {
+    width: 45%;
+    text-align: left;
+    padding-right: 50px;
+    margin-bottom: 0;
+  }
+  .container__slogan {
+    font-size: 44px;
+  }
+  .container__description {
+    font-size: 18px;
+  }
+  .forms {
+    width: 48%;
+  }
+  .forms__container {
+    width: 100%;
+  }
+  .forms__input {
+    height: 50px;
+    padding-left: 20px;
+  }
+  .forms__item:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  .btn {
+    padding: 22px 0px;
+  }
+  .btn-trial {
+    margin-bottom: 28px;
+  }
+}
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1120px;
+  }
+  .container__text {
+    padding-right: 0;
+  }
+  .forms__container {
+    padding: 36px 24px;
+  }
+  .forms__input {
+    height: 54px;
+  }
+}
