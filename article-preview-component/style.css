@@ -153,8 +153,18 @@ li {
 .article__btn-share::after {
   content: url("images/icon-share.svg");
 }
+
 .article__btn-share[aria-expanded="true"] {
   background-color: var(--grayish-blue);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
 @media (min-width: 540px) {
   .article__container {
