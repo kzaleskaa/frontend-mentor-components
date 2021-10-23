@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+</head>
+
+<body class="dark">
+  <header class="header">
+    <div class="title">
+      <h1>Social Media Dashboard</h1>
+      <p>Total Followers: 23,004</p>
+    </div>
+    <div class="toggle-container">
+      <p class="theme-name">Dark Mode</p>
+      <div class="toggler">
+        <input type="checkbox" class="checkbox" id="checkbox">
+        <label for="checkbox" class="label">
+          <div class="dot"></div>
+        </label>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <section class="socials-cards">
+      <div class="social-card">
+        <div class="social-card__header">
+          <img src="images/icon-facebook.svg" alt="Facebook" class="social-card__page">
+          <p class="social-card__user">@nathanf</p>
+        </div>
+        <p class="social-card__number">1987</p>
+        <p class="social-card__followers">Followers</p>
+        <div class="social-card__growth">
+          <img src="images/icon-up.svg" alt="up" class="social-card__growth-icon">
+          <p class="social-card__growth-number up">12 Today</p>
+        </div>
+      </div>
+      <div class="social-card">
+        <div class="social-card__header">
+          <img src="images/icon-twitter.svg" alt="Twitter" class="social-card__page">
+          <p class="social-card__user">@nathanf</p>
+        </div>
+        <p class="social-card__number">1044</p>
+        <p class="social-card__followers">Followers</p>
+        <div class="social-card__growth">
+          <img src="images/icon-up.svg" alt="up" class="social-card__growth-icon">
+          <p class="social-card__growth-number up">99 Today</p>
+        </div>
+      </div>
+      <div class="social-card">
+        <div class="social-card__header">
+          <img src="images/icon-instagram.svg" alt="Instagram" class="social-card__page">
+          <p class="social-card__user">@realnathanf</p>
+        </div>
+        <p class="social-card__number">11K</p>
+        <p class="social-card__followers">Followers</p>
+        <div class="social-card__growth">
+          <img src="images/icon-up.svg" alt="up" class="social-card__growth-icon">
+          <p class="social-card__growth-number up">1099 Today</p>
+        </div>
+      </div>
+      <div class="social-card">
+        <div class="social-card__header">
+          <img src="images/icon-youtube.svg" alt="YouTube" class="social-card__page">
+          <p class="social-card__user">Nathan F.</p>
+        </div>
+        <p class="social-card__number">8239</p>
+        <p class="social-card__followers">Followers</p>
+        <div class="social-card__growth">
+          <img src="images/icon-down.svg" alt="up" class="social-card__growth-icon">
+          <p class="social-card__growth-number down">144 Today</p>
+        </div>
+      </div>
+    </section>
+    <section class="overview">
+      <h2 class="overview__title">Overview - Today</h2>
+      <div class="overview__cards">
+        <div class="overview__card">
+          <div class="overview__header">
+            <p class="overview__text">Page Views</p>
+            <img src="images/icon-facebook.svg" alt="Facebook">
+          </div>
+          <div class="overview__top">
+            <p class="overview__number">87</p>
+            <div class="overview__growth">
+              <img src="images/icon-up.svg" alt="arrow" class="overviev__arrow">
+              <p class="overview__growth-number up">3%</p>
+            </div>
+          </div>
+        </div>
+        <div class="overview__card">
+          <div class="overview__header">
+            <p class="overview__text">Likes</p>
+            <img src="images/icon-facebook.svg" alt="Facebook">
+          </div>
+          <div class="overview__top">
+            <p class="overview__number">52</p>
+            <div class="overview__growth">
+              <img src="images/icon-down.svg" alt="arrow" class="overviev__arrow">
+              <p class="overview__growth-number down">2%</p>
+            </div>
+          </div>
+        </div>
+        <div class="overview__card">
+          <div class="overview__header">
+            <p class="overview__text">Likes</p>
+            <img src="images/icon-instagram.svg" alt="Instagram">
+          </div>
+          <div class="overview__top">
+            <p class="overview__number">5462</p>
+            <div class="overview__growth">
+              <img src="images/icon-up.svg" alt="arrow" class="overviev__arrow">
+              <p class="overview__growth-number up">2257%</p>
+            </div>
+          </div>
+        </div>
+        <div class="overview__card">
+          <div class="overview__header">
+            <p class="overview__text">Profile Views</p>
+            <img src="images/icon-instagram.svg" alt="Instagram">
+          </div>
+          <div class="overview__top">
+            <p class="overview__number">52k</p>
+            <div class="overview__growth">
+              <img src="images/icon-up.svg" alt="arrow" class="overviev__arrow">
+              <p class="overview__growth-number up">1375%</p>
+            </div>
+          </div>
+        </div>
+        <div class="overview__card">
+          <div class="overview__header">
+            <p class="overview__text">Retweets</p>
+            <img src="images/icon-twitter.svg" alt="Twitter">
+          </div>
+          <div class="overview__top">
+            <p class="overview__number">117</p>
+            <div class="overview__growth">
+              <img src="images/icon-up.svg" alt="arrow" class="overviev__arrow">
+              <p class="overview__growth-number up">303%</p>
+            </div>
+          </div>
+        </div>
+        <div class="overview__card">
+          <div class="overview__header">
+            <p class="overview__text">Likes</p>
+            <img src="images/icon-twitter.svg" alt="Twitter">
+          </div>
+          <div class="overview__top">
+            <p class="overview__number">507</p>
+            <div class="overview__growth">
+              <img src="images/icon-up.svg" alt="arrow" class="overviev__arrow">
+              <p class="overview__growth-number up">553%</p>
+            </div>
+          </div>
+        </div>
+        <div class="overview__card">
+          <div class="overview__header">
+            <p class="overview__text">Likes</p>
+            <img src="images/icon-youtube.svg" alt="YouTube">
+          </div>
+          <div class="overview__top">
+            <p class="overview__number">107</p>
+            <div class="overview__growth">
+              <img src="images/icon-down.svg" alt="arrow" class="overviev__arrow">
+              <p class="overview__growth-number down">19%</p>
+            </div>
+          </div>
+        </div>
+        <div class="overview__card">
+          <div class="overview__header">
+            <p class="overview__text">Total Views</p>
+            <img src="images/icon-youtube.svg" alt="YouTube">
+          </div>
+          <div class="overview__top">
+            <p class="overview__number">1407</p>
+            <div class="overview__growth">
+              <img src="images/icon-down.svg" alt="arrow" class="overviev__arrow">
+              <p class="overview__growth-number down">12%</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="main.js"></script>
+</body>
+
+</html>
