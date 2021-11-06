@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Project tracking intro component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="nav">
+    <div class="nav__container">
+      <a href="#" class="logo">
+        <img src="./images/logo.svg" alt="Project tracking">
+      </a>
+      <button class="toggle">
+        <img src="./images/icon-hamburger.svg" alt="hamburger" class="hamburger" id="hamburger">
+        <img src="./images/icon-close.svg" alt="close" class="close hidden" id="close">
+      </button>
+      <ul class="menu" id="menu">
+        <li class="menu__item"><a href="#" class="menu__link">Product</a></li>
+        <li class="menu__item"><a href="#" class="menu__link">Features</a></li>
+        <li class="menu__item"><a href="#" class="menu__link">Pricing</a></li>
+        <li class="menu__item menu__item--gray"><a href="#" class="menu__link">Login</a></li>
+      </ul>
+    </div>
+  </nav>
+  <main class="main">
+    <div class="main__container">
+      <div class="main__content">
+        <h3 class="main__dashboard">
+          <span class="main__new">New</span>
+          Monograph Dashboard
+        </h3>
+        <h1 class="main__title">Powerful insights into your team</h1>
+        <p class="main__about">Project planning and time tracking for agile teams</p>
+        <div class="main__schedule">
+          <button class="btn">Schedule a demo</button>
+          <h3 class="main__preview">to see a live preview</h3>
+        </div>
+      </div>
+      <div class="main__image">
+        <img src="./images/illustration-devices.svg" alt="Devices">
+      </div>
+    </div>
+  </main>
+  <script src="main.js"></script>
+</body>
+
+</html>
