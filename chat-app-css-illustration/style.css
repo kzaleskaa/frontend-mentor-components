@@ -59,7 +59,6 @@ body::before {
   background: linear-gradient(var(--light-magenta), var(--light-violet));
   border-radius: 0 0 240px 0;
   z-index: -100;
-  overflow-x: hidden;
 }
 
 .main__container {
@@ -244,7 +243,6 @@ body::before {
   padding: 0px 5px 11px 5px;
   background-color: var(--light-grayish-violet);
   border-radius: 0px 0px 20px 20px;
-  overflow: hidden;
   margin: 0 auto;
 }
 
