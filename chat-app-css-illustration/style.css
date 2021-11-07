@@ -62,7 +62,7 @@ body::before {
   overflow-x: hidden;
 }
 
-.container {
+.main__container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -324,7 +324,7 @@ body::before {
     transform: translateX(250px);
     z-index: -100;
   }
-  .container {
+  .main__container {
     min-height: 100vh;
     width: 60%;
     max-width: 810px;
