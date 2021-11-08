@@ -43,6 +43,12 @@ Users should be able to:
 | Tags  | Challanges | Live|  Code|
 | --- | -- |  -- | --  | 
 | HTML, CSS      | Testimonials grid section | [Live](https://testimonials-grid-section-kzaleskaa.netlify.app/) | [Code](https://github.com/kzaleskaa/frontend-mentor-solutions/tree/main/testimonials-grid-section) |
+| HTML, CSS, JS      | Project tracking intro component | [Live](https://project-tracking-intro-component-kzaleskaa.netlify.app/) | [Code](https://github.com/kzaleskaa/frontend-mentor-components/tree/main/project-tracking-intro-component) |
 | HTML, CSS, JS      | Coding bootcamp testimonials slider | [Live](https://slider-kzaleskaa.netlify.app/) | [Code](https://github.com/kzaleskaa/frontend-mentor-solutions/tree/main/coding-bootcamp-testimonials-slider) |
 | HTML, CSS, JS      | Fylo data storage component | [Live](https://fylo-data-kzaleskaa.netlify.app/) | [Code](https://github.com/kzaleskaa/frontend-mentor-components/tree/main/fylo-data-storage-component) |
+
+## Intermediate challenges
+| Tags  | Challanges | Live|  Code|
+| --- | -- |  -- | --  | 
+| HTML, CSS, JS  | Testimonials grid section | [Live](https://chat-app-css-illustration-kzaleskaa.netlify.app//) | [Code](https://github.com/kzaleskaa/frontend-mentor-components/tree/main/chat-app-css-illustration) |
 
