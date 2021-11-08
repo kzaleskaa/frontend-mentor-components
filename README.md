@@ -50,5 +50,5 @@ Users should be able to:
 ## Intermediate challenges
 | Tags  | Challanges | Live|  Code|
 | --- | -- |  -- | --  | 
-| HTML, CSS, JS  | Testimonials grid section | [Live](https://chat-app-css-illustration-kzaleskaa.netlify.app//) | [Code](https://github.com/kzaleskaa/frontend-mentor-components/tree/main/chat-app-css-illustration) |
+| HTML, CSS, JS  | Chat app css illustration | [Live](https://chat-app-css-illustration-kzaleskaa.netlify.app//) | [Code](https://github.com/kzaleskaa/frontend-mentor-components/tree/main/chat-app-css-illustration) |
 
