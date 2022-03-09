@@ -1,0 +1,42 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    position: relative;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 600px;
+    padding: 30px 30px 50px 30px;
+    background-color: $dark-grayish-blue;
+    border-radius: 10px;
+
+    &__advice-number {
+        color: $neon-green;
+    }
+
+    &__advice {
+        color: $light-cyan;
+    }
+
+    &__divider_desktop {
+        display: none;
+    }
+
+    &__btn {
+        background-color: $neon-green;
+        border-radius: 50%;
+        border: none;
+        padding: 20px;
+        position: absolute;
+        bottom: 0;
+        transform: translateY(50%);
+        transition: .4s;
+        cursor: pointer;
+
+        &:hover {
+            box-shadow: 0px 0px 24px 0px $neon-green;
+        }
+    }
+}

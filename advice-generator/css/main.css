@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #1f2632;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  row-gap: 20px;
+  position: relative;
+  margin: 0 auto;
+  width: 90%;
+  max-width: 600px;
+  padding: 30px 30px 50px 30px;
+  background-color: #323a49;
+  border-radius: 10px;
+}
+
+.card__advice-number {
+  color: #52ffa8;
+}
+
+.card__advice {
+  color: #cee3e9;
+}
+
+.card__divider_desktop {
+  display: none;
+}
+
+.card__btn {
+  background-color: #52ffa8;
+  border-radius: 50%;
+  border: none;
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
+  -webkit-transition: .4s;
+  transition: .4s;
+  cursor: pointer;
+}
+
+.card__btn:hover {
+  -webkit-box-shadow: 0px 0px 24px 0px #52ffa8;
+          box-shadow: 0px 0px 24px 0px #52ffa8;
+}
+/*# sourceMappingURL=main.css.map */
