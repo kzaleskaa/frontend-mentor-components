@@ -21,28 +21,40 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  text-align: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  row-gap: 20px;
-  position: relative;
-  margin: 0 auto;
+  row-gap: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   width: 90%;
-  max-width: 600px;
-  padding: 30px 30px 50px 30px;
+  max-width: 700px;
+  padding: 40px 30px 50px 30px;
   background-color: #323a49;
   border-radius: 10px;
 }
 
 .card__advice-number {
   color: #52ffa8;
+  font-size: 20px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
 }
 
 .card__advice {
   color: #cee3e9;
+  font-size: 28px;
 }
 
-.card__divider_desktop {
+.card__divider {
+  margin-bottom: 20px;
+}
+
+.card__divider--desktop {
   display: none;
 }
 
@@ -63,5 +75,14 @@ body {
 .card__btn:hover {
   -webkit-box-shadow: 0px 0px 24px 0px #52ffa8;
           box-shadow: 0px 0px 24px 0px #52ffa8;
+}
+
+@media only screen and (min-width: 1024px) {
+  .card__divider--mobile {
+    display: none;
+  }
+  .card__divider--desktop {
+    display: block;
+  }
 }
 /*# sourceMappingURL=main.css.map */
