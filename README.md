@@ -44,6 +44,7 @@ Users should be able to:
 | HTML, CSS      | Testimonials grid section | [Live](https://testimonials-grid-section-kzaleskaa.netlify.app/) | [Code](https://github.com/kzaleskaa/frontend-mentor-solutions/tree/main/testimonials-grid-section) |
 | HTML, CSS, JS      | Coding bootcamp testimonials slider | [Live](https://slider-kzaleskaa.netlify.app/) | [Code](https://github.com/kzaleskaa/frontend-mentor-solutions/tree/main/coding-bootcamp-testimonials-slider) |
 | HTML, CSS, JS      | Fylo data storage component | [Live](https://fylo-data-kzaleskaa.netlify.app/) | [Code](https://github.com/kzaleskaa/frontend-mentor-components/tree/main/fylo-data-storage-component) |
+| HTML, SCSS, JS      | Advice generator app | [Live](https://advice-generator-kzaleskaa.netlify.app/) | [Code](https://github.com/kzaleskaa/frontend-mentor-components/tree/main/advice-generator) |
 
 ## Intermediate challenges
 | Tags  | Challanges | Live|  Code|
