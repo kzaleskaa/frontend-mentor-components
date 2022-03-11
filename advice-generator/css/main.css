@@ -8,6 +8,8 @@
 
 body {
   background-color: #1f2632;
+  font-family: "Manrope", sans-serif;
+  padding: 40px 0px;
 }
 
 .card {
@@ -31,16 +33,16 @@ body {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  width: 90%;
-  max-width: 700px;
-  padding: 40px 30px 50px 30px;
+  width: 86%;
+  max-width: 540px;
+  padding: 40px 20px 70px 20px;
   background-color: #323a49;
   border-radius: 10px;
 }
 
 .card__advice-number {
   color: #52ffa8;
-  font-size: 20px;
+  font-size: 16px;
   letter-spacing: 4px;
   text-transform: uppercase;
 }
@@ -51,11 +53,11 @@ body {
 }
 
 .card__divider {
-  margin-bottom: 20px;
-}
-
-.card__divider--desktop {
-  display: none;
+  background-image: url("./../images/pattern-divider-mobile.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 16px;
 }
 
 .card__btn {
@@ -78,11 +80,11 @@ body {
 }
 
 @media only screen and (min-width: 1024px) {
-  .card__divider--mobile {
-    display: none;
+  .card {
+    padding: 40px 50px 70px 50px;
   }
-  .card__divider--desktop {
-    display: block;
+  .card__divider {
+    background-image: url("./../images/pattern-divider-desktop.svg");
   }
 }
 /*# sourceMappingURL=main.css.map */
