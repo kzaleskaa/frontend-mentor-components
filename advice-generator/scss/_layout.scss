@@ -1,0 +1,65 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    row-gap: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    max-width: 700px;
+    padding: 40px 30px 50px 30px;
+    background-color: $dark-grayish-blue;
+    border-radius: 10px;
+
+    &__advice-number {
+        color: $neon-green;
+        font-size: 20px;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+    }
+
+    &__advice {
+        color: $light-cyan;
+        font-size: 28px;
+    }
+
+    &__divider {
+        margin-bottom: 20px;
+    }
+
+    &__divider--desktop {
+        display: none;
+    }
+
+    &__btn {
+        background-color: $neon-green;
+        border-radius: 50%;
+        border: none;
+        padding: 20px;
+        position: absolute;
+        bottom: 0;
+        transform: translateY(50%);
+        transition: .4s;
+        cursor: pointer;
+
+        &:hover {
+            box-shadow: 0px 0px 24px 0px $neon-green;
+        }
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .card {
+        &__divider--mobile {
+            display: none;
+        }
+
+        &__divider--desktop {
+            display: block;
+        }
+    }
+}
