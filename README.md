@@ -32,6 +32,7 @@ Users should be able to:
 | HTML, CSS      | Single price grid component | [Live](https://frontend-mentor-solutions-kohl.vercel.app/) | [Code](https://github.com/kzaleskaa/frontend-mentor-solutions/tree/main/single-price-grid-component) |
 | HTML, CSS      | Profile card component | [Live](https://profile-card-component-kzaleskaa.netlify.app/) | [Code](https://github.com/kzaleskaa/frontend-mentor-solutions/tree/main/profile-card-component) |
 | HTML, CSS      | Four card feature section | [Live](https://four-card-feature-section-kzaleskaa.netlify.app/) | [Code](https://github.com/kzaleskaa/frontend-mentor-solutions/tree/main/four-card-feature-section) |
+| HTML, CSS      | Qr code component | [Live](https://qr-code-kzaleskaa.netlify.app/) | [Code](https://github.com/kzaleskaa/frontend-mentor-solutions/tree/main/qr-code-component) |
 | HTML, CSS      | Huddle landing page with single introductory section | [Live](https://huddle-landing-page-single-section.netlify.app/) | [Code](https://github.com/kzaleskaa/frontend-mentor-solutions/tree/main/huddle-landing-page-with-single-introductory-section) |
 | HTML, SCSS      | Stats preview card component | [Live](https://stats-preview-card-kzaleskaa.netlify.app/) | [Code](https://github.com/kzaleskaa/frontend-mentor-solutions/tree/main/stats-preview-card-component) |
 | HTML, CSS, JS      | Base apparel coming soon | [Live](https://base-apparel-coming-soon-kzaleskaa.netlify.app/) | [Code](https://github.com/kzaleskaa/frontend-mentor-solutions/tree/main/base-apparel-coming-soon) |
